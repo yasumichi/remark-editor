@@ -1,0 +1,23 @@
+{
+  "name": "remark-editor",
+  "version": "0.1.0",
+  "description": "Markdown editor for remark.js (For tutorial articles)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasumichi/remark-editor.git"
+  },
+  "keywords": [
+    "Markdown",
+    "Presentation"
+  ],
+  "author": "Yasumichi Akahoshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yasumichi/remark-editor/issues"
+  },
+  "homepage": "https://github.com/yasumichi/remark-editor#readme"
+}
