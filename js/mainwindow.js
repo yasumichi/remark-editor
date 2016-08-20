@@ -18,6 +18,6 @@ if (process.env.DEBUG_GUEST) {
 // Emitted whenever the document is changed
 editor.on("change", (e) => {
   if (e.data.range.start.row != e.data.range.end.row) {
-    webview.send('update-markdow', editor.getValue());
+    webview.send('update-markdown', editor.getValue());
   }
 });
