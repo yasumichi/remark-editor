@@ -14,3 +14,10 @@ if (process.env.DEBUG_GUEST) {
     webview.openDevTools()
   });
 }
+
+// Emitted whenever the document is changed
+editor.on("change", (e) => {
+  if (e.data.range.start.row != e.data.range.end.row) {
+    webview.send('update-markdow', editor.getValue());
+  }
+});
