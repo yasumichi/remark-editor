@@ -21,3 +21,14 @@ editor.on("change", (e) => {
     webview.send('update-markdown', editor.getValue());
   }
 });
+
+// control fullscreen mode
+var editorPane = document.getElementById('editor');
+
+webview.addEventListener('enter-html-full-screen', () => {
+  editorPane.setAttribute('style', 'display:none');
+});
+
+webview.addEventListener('leave-html-full-screen', () => {
+  editorPane.removeAttribute('style');
+});
