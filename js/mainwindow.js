@@ -7,6 +7,7 @@ editor.getSession().setMode("ace/mode/markdown");
 editor.getSession().setUseWrapMode(true);
 editor.focus();
 
+// for Guest Debug
 var webview = document.getElementById('webview');
 if (process.env.DEBUG_GUEST) {
   webview.addEventListener('dom-ready', () => {
