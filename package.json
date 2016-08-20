@@ -4,6 +4,7 @@
   "description": "Markdown editor for remark.js (For tutorial articles)",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
