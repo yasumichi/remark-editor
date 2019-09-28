@@ -1,7 +1,7 @@
 # remark-editor
 Markdown editor for remark (For tutorial articles).
 
-[1st tutorial](http://qiita.com/yasumichi/items/fc594e9ef1d7096bd56a)(Japanese)
+[1st tutorial](https://qiita.com/yasumichi/items/8527cc33e2d6b0642f75)(Japanese)
 
 ## Special Thanks
 
